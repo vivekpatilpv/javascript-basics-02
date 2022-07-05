@@ -7,9 +7,6 @@
     --blue: #173187;
     --green: #49890e;
     --white: #ffffff;
-    --orange-alpha-50: rgba(240, 151, 50, 0.5);
-    --blue-alpha-50: rgba(23, 49, 135, 0.5);
-    --green-alpha-50: rgba(73, 137, 14, 0.5);
 }
 
 
@@ -24,6 +21,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
+    box-shadow: 25px 25px 50px 15px white inset, -25px 25px 50px 25px white inset; 
 }
 
 .divfortext {
@@ -36,23 +34,46 @@
 }
 
 
-.card {
+/* .card {
     border-radius: .375rem;
     padding: 10% 25%;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
     padding-top: 4%;
-}
+
+} */
+    /*new*/
+
+    .card {
+        border-radius: .375rem;
+    
+        /* background-color: #fff; */
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 3.25rem;
+        line-height: 24px;
+        font-size: 14px;
+        padding-top: 0%;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    padding-left: 6%;
+    padding-right: 7%;
+    margin-bottom: 0px;
+    width: 678.166px;
+margin-left: 1px;
+height: 514.784px;
+margin-top: 17px;
+    }
+    
+
 
 body {
     background: #f7f9f9;
-    
     font-size: 18px;
     line-height: 24px;
     font-weight: 600;
     word-spacing: 2px;
     letter-spacing: 0.5px;
-    background-image: linear-gradient(to left bottom, #e28011, #ff9c77, #ffacb3, #ffc6e1, #ffe1fb, #ebe0ff, #d6e0ff, #c2e0fa, #75cfe6, #07bdb7, #02a66e, #49890e);
+    background-image: linear-gradient(to left bottom, #EF9637, #F1A350, #F3B069, #EAF4F0, #EDF5F2, #89C484, #71B86B, #5AAC52, #42A039);
 }
 
 
